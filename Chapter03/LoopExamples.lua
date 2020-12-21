@@ -36,6 +36,7 @@ end
 
 
 local items = workspace:GetDescendants()
+
 for _, object in pairs(items) do
 	if object:IsA("BasePart") then
 		object.Anchored = true
@@ -52,6 +53,7 @@ print(num)
 
 
 local elapsedTime = 0
+
 while true do
 	wait(1)
 	elapsedTime = elapsedTime + 1
@@ -60,6 +62,7 @@ end
 
 
 local num = 12
+
 repeat
 	num = num - 1
 until num == 0
