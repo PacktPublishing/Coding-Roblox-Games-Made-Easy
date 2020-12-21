@@ -52,8 +52,8 @@ print(strengthRequired)
 local numFruits = 0
 local numVeggies = 0
 local notProduce = 0
-
 local item = "Fruit"
+
 if item == "Fruit" then
 	numFruits = numFruits + 1
 elseif item == "Vegetable" then
