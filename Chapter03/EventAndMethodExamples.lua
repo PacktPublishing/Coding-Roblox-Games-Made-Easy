@@ -7,12 +7,14 @@ bodyForce.Parent = part
 
 
 local Part = workspace.TouchPart
+
 Part.Touched:Connect(function(hit)
 	print(hit)
 end)
 
 
 local Part = workspace.TouchPart
+
 local function printHitName(hit)
 	print(hit)
 end
