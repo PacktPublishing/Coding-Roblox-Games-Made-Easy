@@ -1,5 +1,6 @@
 --module
 local module = {}
+
 module.initialize = function()
 	print("Initialized")
 end
@@ -11,8 +12,10 @@ local mod = require(module)
 mod.initialize()
 
 
+
 --module
 local module = {}
+
 module.Heavy = {
 	MaxHealth = 500;
 	Health = 500;
