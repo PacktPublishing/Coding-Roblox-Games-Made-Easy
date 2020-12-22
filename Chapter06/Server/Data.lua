@@ -1,6 +1,6 @@
 local playerService = game:GetService("Players")
 local dataService = game:GetService("DataStoreService")
-local store = dataService:GetDataStore("DataStoreV12")
+local store = dataService:GetDataStore("DataStoreV1")
 
 local sessionData = {}
 local dataMod = {}
