@@ -9,6 +9,7 @@ local AUTOSAVE_INTERVAL = 120
 
 dataMod.recursiveCopy = function(dataTable)
 	local tableCopy = {}
+	
 	for index, value in pairs(dataTable) do
 		if type(value) == "table" then
 			value = dataMod.recursiveCopy(value)
@@ -126,6 +127,7 @@ end)
 local function autoSave()
 	while wait(AUTOSAVE_INTERVAL) do
 		print("Auto-saving data for all players")
+		
 		for key, dataTable in pairs(sessionData) do
 			local player = playerService:GetPlayerByUserId(key)
 			dataMod.save(player)
