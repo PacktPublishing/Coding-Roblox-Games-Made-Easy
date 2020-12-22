@@ -9,6 +9,7 @@ local AUTOSAVE_INTERVAL = 120
 
 dataMod.recursiveCopy = function(dataTable)
 	local tableCopy = {}
+	
 	for index, value in pairs(dataTable) do
 		if type(value) == "table" then
 			value = dataMod.recursiveCopy(value)
