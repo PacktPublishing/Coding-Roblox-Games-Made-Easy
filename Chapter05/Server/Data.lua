@@ -121,6 +121,7 @@ end)
 local function autoSave()
 	while wait(AUTOSAVE_INTERVAL) do
 		print("Auto-saving data for all players")
+		
 		for key, dataTable in pairs(sessionData) do
 			local player = playerService:GetPlayerByUserId(key)
 			dataMod.save(player)
