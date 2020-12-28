@@ -1,16 +1,23 @@
 local part = workspace.Part
-
 local bodyForce = Instance.new("BodyForce")
 bodyForce.Parent = part
-
 local requiredForce = part:GetMass() * workspace.Gravity
 bodyForce.Force = Vector3.new(0,requiredForce,0)
 
 
+local Part1 = workspace.Part1
+local bodyVelocity = Instance.new("BodyVelocity")
+local huge = math.huge
+bodyVelocity.MaxForce = Vector3.new(huge,huge,huge)
+bodyVelocity.Parent = Part1
+local projectileVel = 5
+local moverVel = Part1.CFrame.LookVector * projectileVel
+bodyVelocity.Velocity = moverVel
+
+
 local Part2 = workspace.Part2
 local lookVector = (Part2.Position - Part1.Position).Unit
---p2 – p1 = directional vector at p1 looking at p2
-
+--p2 � p1 = directional vector at p1 looking at p2
 local moverVel = lookVector * projectileVel
 bodyVelocity.Velocity = moverVel
 
