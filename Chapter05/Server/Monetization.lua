@@ -12,7 +12,7 @@ monetizationMod.insertTool = function(player, assetId)
 	asset:Destroy()
 end
 
-monetizationMod[11835596] = function(player)
+monetizationMod[000000] = function(player)
 	--Speed coil
 	monetizationMod.insertTool(player, 99119158)
 end
@@ -27,7 +27,7 @@ monetizationMod[000000] = function(player)
 	monetizationMod.insertTool(player, 212641536)
 end
 
-monetizationMod[1090082724] = function(player)
+monetizationMod[000000] = function(player)
 	--100 Coins
 	dataMod.increment(player, "Coins", 100)
 end
