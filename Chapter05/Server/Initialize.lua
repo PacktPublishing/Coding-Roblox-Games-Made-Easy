@@ -24,7 +24,7 @@ end)
 local collectionService = game:GetService("CollectionService")
 local marketService = game:GetService("MarketplaceService")
 local monetization = require(script.Parent.Monetization)
-local toolPasses = {11835596}
+local toolPasses = {000000}
 
 initializeMod.givePremiumTools = function(player)
 	for _, ID in pairs(toolPasses) do
