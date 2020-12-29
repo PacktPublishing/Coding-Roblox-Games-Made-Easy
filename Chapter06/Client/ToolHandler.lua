@@ -87,7 +87,9 @@ end
 
 mouse.Button1Down:Connect(function()
 	doFire = true
-	fire()
+	if char.Humanoid.Health > 0 then
+		fire()
+	end
 end)
 
 mouse.Button1Up:Connect(function()
