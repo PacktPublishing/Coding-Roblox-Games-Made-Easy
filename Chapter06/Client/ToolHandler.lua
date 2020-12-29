@@ -7,7 +7,7 @@ local char = player.Character or player.CharacterAdded:Wait()
 local mouse = player:GetMouse()
 
 local tool = script.Parent
-local firePoint = tool.Main --This is where the bullet comes from
+local firePoint = tool:WaitForChild("Handle") --This is where the bullet comes from
 local gunSettings = require(tool:WaitForChild("Settings"))
 local equipped = false
 
