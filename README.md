@@ -41,7 +41,8 @@ With the following software and hardware list you can run all code files present
 | -------- | ------------------------------------| -----------------------------------|
 | 1-7      | Roblox Studio                       | Windows, Mac OS X, and Linux (Any) |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [https://static.packt-cdn.com/downloads/9781800561991_ColorImages.pdf](Graphics Bundle Link).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [https://static.packt-cdn.com/downloads/9781800561991_ColorImages.pdf]
+(Graphics Bundle Link).
 
 ### Related products <Other books you may enjoy>
 * Learning C# by Developing Games with Unity 2020 - Fifth Edition [[Packt]](https://www.packtpub.com/product/learning-c-by-developing-games-with-unity-2020-fifth-edition/9781800207806) [[Amazon]](https://www.amazon.com/dp/1800207808)
