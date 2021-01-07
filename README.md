@@ -9,7 +9,7 @@ This is the code repository for [Coding Roblox Games Made Easy](https://www.pack
 ## What is this book about?
 Roblox is a massive platform like no other for both playing and creating games. With well over 150 million monthly active users, Roblox stands out because every game that can be played is made by other members of the community. The best part is that anyone can create games for free and even earn considerable sums of money if their games become a success. Furthermore, there is a vast and supportive developer circle that provides excellent opportunities for networking and making new acquaintances in a tight-knit community.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features: 
 * Delve into an introduction to Roblox development and various aspects such as choosing a developer type
 * Understand how to use Roblox Studio and other free resources
 * Get to grips with creating your first game with the Roblox Lua programming language
