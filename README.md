@@ -52,3 +52,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **Zander Brumbaugh**
 an independent Programmer, Project Manager, and Game Designer. The games he has made or contributed to have been played more than 250 million times. Zander works with members of the Roblox community and its DevRel team to promote and support the Roblox platform. He has created popular games like Power Simulator, Munching Masters, Magician Simulator, etc. With the games he has created, he has been able to put himself through college; he currently attends the University of Washington and is part of the Paul G. Allen School of Computer Science and Engineering. At the time of writing, Zander is 18 years old.
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800561991">https://packt.link/free-ebook/9781800561991 </a> </p>
